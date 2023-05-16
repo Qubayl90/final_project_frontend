@@ -56,7 +56,7 @@ function DataTable() {
         <Button onClick={deleteData} className="p-3 bg-slate-300 m-3 rounded hover:bg-slate-800 hover:text-white"> Delete Image </Button>
     </div>
         <div className={ open ? "hidden" : "container mx-10 my-5 flex flex-col"} style={{ height: 400, width: '100%'}}>
-            <h2 className="p-3 bg-slate-300 my-2 rounded"> My Cars</h2>
+            <h2 className="p-3 bg-slate-300 my-2 rounded"> My Images</h2>
             <DataGrid rows={imageData} columns={columns} //rowsPerPageOptions={[5]} 
             checkboxSelection={true} 
             onRowSelectionModelChange={(item:any) => {
